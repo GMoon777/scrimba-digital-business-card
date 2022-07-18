@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #23252C;
+    font-family: Inter;
+
+}
+.imageStyle {
+border-radius: 10px 10px 0px 0px;
+width: 317px;
+height: 317px;
+}
+
+.iconStyle {
+ padding: 14px;
+}
+
+.emailIconStyle {
+left: 10%;
+right: 10%;
+top: 20%;
+bottom: 20%;
+}
+
+app { 
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin-top: 53px;
+}
+
+info {
+display: flex;
+flex-direction: column;
+justify-content: center;
+max-width: 317px;
+min-width: 317px;
+background: #1A1B21;
+padding-bottom: 25px;
+}
+
+about {
+display: flex;
+flex-direction: column;
+justify-content: center;
+max-width: 317px;
+min-width: 317px;
+background: #1A1B21;
+padding-bottom: 25px;
+}
+
+interests { 
+display: flex;
+flex-direction: column;
+justify-content: center;
+max-width: 317px;
+min-width: 317px;
+background: #1A1B21;
+padding-bottom: 35px;
+}
+
+footer { 
+display: flex;
+flex-direction: row;
+justify-content: center;
+max-width: 317px;
+min-width: 317px;
+background: #161619;
+border-radius: 0px 0px 10px 10px;
+}
+
+buttonsContainer {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+max-width: 317px;
+}
+
+emailButton {
+align-items: center;
+justify-content: center;
+padding: 9px 13px 9px 11px;
+width: 115px;
+height: 34px;
+background: white;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+margin: 8px;
+}
+
+linkedInButton {
+align-items: center;
+justify-content: center;
+padding: 9px 13px 9px 11px;
+width: 115px;
+height: 34px;
+background: #5093E2;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+margin: 8px;
+}
+
+nameText {
+    font-weight: 700;
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+devText {
+    font-weight: 500;
+     color: #F3BF99;
+     font-size: 12.8px;
+    font-style: normal;
+    line-height: 15px;
+}
+
+
+infoHeadingText {
+    font-weight: 700;
+     color: white;
+     font-size: 16px;
+     text-align: left;
+     margin-left: 10px;
+       padding-left: 28px;
+}
+
+infoText {
+    padding-top: 5px;
+    font-weight: 400;
+     color: white;
+     font-size: 10.24px;
+     padding-left: 38px;
+     padding-right: 38px;
+        text-align: left;
+}
+
+emailText {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+     color: white;
+     font-size: 10.24px;
+        text-align: center;
+}
+emailIconText {
+    font-weight: 500;
+     color: #374151;
+     font-size: 14px;
+     line-height: 16px;
+     padding-left: 5px;    
+}
+linkedInIconText {
+    font-weight: 500;
+     color: white;
+     font-size: 14px;
+     line-height: 16px;
+     padding-left: 5px;    
+}
